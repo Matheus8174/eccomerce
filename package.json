@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "tsnd --inspect --transpile-only --ignore-watch node_modules src/server"
   },
   "keywords": [],
   "author": "Matheus Santos Araújo da Silva <souzamatheus8174@gmail.com> (https://your-url.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
 }

@@ -6,8 +6,13 @@
   "scripts": {
     "start:dev": "tsnd --inspect --clear --transpile-only --ignore-watch node_modules src/server"
   },
-  "keywords": [],
-  "author": "Matheus Santos Araújo da Silva <souzamatheus8174@gmail.com> (https://your-url.com/)",
+  "homepage": "https://github.com/Matheus8174/eccomerce#readme",
+  "author": {
+    "email": "souzamatheus8174@gmail.com",
+    "name": "Matheus Santos Araújo da Silva",
+    "url": "https://github.com/Matheus8174/eccomerce/issues"
+  },
+  "keywords": ["mongo", "eccomerce", "express"],
   "license": "MIT",
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
